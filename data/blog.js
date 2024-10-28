@@ -5,13 +5,19 @@ module.exports = [
     date: "23 Apr, 2022",
     title: "A Discount Cartridge dsu is Better Ever.",
     delay: "100",
+    content: "This blog discusses the benefits of using discount cartridges...",
+    tag: undefined,
+    tagStyle: undefined,
   },
   {
     id: 2,
     imageSrc: "/images/blog/blog_img_10.jpg",
     date: "14 March, 2022",
-    title: "Truck Side Advertising Isn It Time for action.",
+    title: "Truck Side Advertising Isn't it Time for Action.",
     delay: "200",
+    content: "Explore how truck side advertising is evolving...",
+    tag: undefined,
+    tagStyle: undefined,
   },
   {
     id: 3,
@@ -19,6 +25,9 @@ module.exports = [
     date: "27 Feb, 2022",
     title: "A Discount Cartridge dsu is Better Ever.",
     delay: "300",
+    content: "Details on saving money with discount cartridges.",
+    tag: "Education",
+    tagStyle: { background: "#FFEAC9" },
   },
   {
     id: 4,
@@ -87,9 +96,70 @@ module.exports = [
   {
     id: 12,
     imageSrc: "/images/blog/blog_img_20.jpg",
-    date: "23 Apr, 2022",
-    title: "A Discount Cartridge dsu is Better Ever.",
+    date: "28 Oct, 2024",
+    title: "How AI Ad Copy Generators Are Revolutionizing Advertising",
     delay: "100",
+    content: "All businesses are run by advertising and marketing of any and various kinds. As the number of advertising mediums grows with the rise of digital and programmatic advertising, so does the competition in advertising. By 2024, the global advertising market is projected to reach nearly $978.5 billion, with a compound annual growth rate (CAGR) of 4.6% from 2024 to 2032.",
+    subheadings: [
+      {
+        title: "Introduction to AI in Advertising",
+        content: "Artificial Intelligence has transformed numerous industries, and advertising is no exception. With AI ad copy generators, businesses can now create persuasive and targeted ad content more efficiently than ever before."
+      },
+      {
+        title: "The Rapid Transformation of Advertising with AI",
+        content: "The advertising industry is undergoing rapid transformation, propelled by the rapid rise of AI showing 65% of organisations reported regular use of generative AI. Companies like Google, Facebook, and Amazon dominate the digital advertising landscape, leveraging their massive data pools and advanced AI capabilities to offer more precise ad targeting and real-time analytics. This enables advertisers to deliver hyper-personalized ads that resonate with individual users, increasing usage and ROI."
+      },
+      {
+        title: "How Do AI Ad Copy Generators Work?",
+        content: "AI ad copy generators are tools that help automate ad creation using artificial intelligence, machine learning, and natural language processing. AI Ads use data-driven approaches to not only write copy but also design the layout of the entire ad."
+      },
+      {
+        title: "Data Collection and Analysis",
+        content: "AI ad copy generators start by gathering huge scales of data, including target audience, demographics, user intent, and past ad performance. The AI then sorts this data to further understand patterns and predict the most effective ad elements."
+      },
+      {
+        title: "Ad Content Creation",
+        content: "After understanding the data, AI uses natural language generation (NLG) to create ad copy and select visuals based on buyer personas. These ads are hyper-personalized, with headlines, design, and graphics that cater to specific demographics and trends."
+      },
+      {
+        title: "A/B Testing and Evolution",
+        content: "AI facilitates A/B testing by analyzing the performance of different ad versions to optimize CTR and conversions. High-performing ads are prioritized for better ROI."
+      },
+      {
+        title: "Auto Cross-Posting on Social Platforms",
+        content: "AI ad copy generators can directly post the ad creatives on desired social media platforms and create size-specific formats for each platform, like Google Ads, Facebook, and Instagram."
+      },
+      {
+        title: "Benefits of AI Ad Copy Generators",
+        content: "AI tools provide significant advantages such as speed, cost-effectiveness, personalization, data-driven insights, and scalability, making them ideal for businesses large and small."
+      },
+      {
+        title: "Industries Leveraging AI for Targeting and Engagement",
+        content: "Industries like eCommerce, real estate, and tech are increasingly leveraging AI for personalized targeting and customer engagement, with examples from Amazon, Zillow, and IBM Watson."
+      },
+      {
+        title: "The Future of AI in Advertising",
+        content: "AI's presence in advertising is only growing, providing opportunities for improved personalization, real-time adaptability, and enhanced user experience, which positions it as an essential tool for future marketing strategies."
+      }
+    ],
+    faq: [
+      {
+        question: "Can AI Ad Copy Generators Create Videos?",
+        answer: "Absolutely! AI ad creators can generate videos using tools like RunwayML and Synthesia, offering customizable content options from explainer videos to marketing clips."
+      },
+      {
+        question: "What is AI Advertising?",
+        answer: "AI advertising automates ad creation, targets specific audiences, and personalizes content, making ads more effective and engaging."
+      },
+      {
+        question: "Can AI-Generated Art Be Copyrighted?",
+        answer: "Not yet! AI art currently lacks copyright protection due to the absence of human authorship, though laws may evolve."
+      },
+      {
+        question: "How Often Is AI Wrong?",
+        answer: "AI has an error rate of 15-20% in complex tasks, but accuracy can reach 85-90% in high-stakes fields like healthcare."
+      }
+    ]
   },
   {
     id: 13,
