@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Footer from "@/components/home-page/home-6/FooterMenu";
+// import Footer from "@/components/home-page/home-6/FooterMenu";
 import Header from "@/components/home-page/home-6/Header";
 import Block2 from "@/components/services/Block2";
 import Faq4 from "@/components/faqs/Faq4";

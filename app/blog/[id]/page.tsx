@@ -1,25 +1,26 @@
 import Header from "@/components/home-page/home-6/Header";
-import DefaultFooter from "@/components/footer/DefaultFooter";
+import FooterMenu from "@/components/home-page/home-6/FooterMenu";
+import CopyrightFooter2 from "@/components/footer/CopyrightFooter2";
 import SearchBox from "@/components/blog/SearchBox";
 import Category from "@/components/blog/Category";
 import RecentPost from "@/components/blog/RecentPost";
-import BannerPost from "@/components/blog/BannerPost";
+// import BannerPost from "@/components/blog/BannerPost";
 import Tag from "@/components/blog/blog-details/Tag";
 import SocialShare from "@/components/blog/blog-details/SocialShare";
-import SingleComments from "@/components/blog/blog-details/SingleComments";
-import CommentBox from "@/components/blog/blog-details/CommentBox";
-import Link from "next/link";
+// import SingleComments from "@/components/blog/blog-details/SingleComments";
+// import CommentBox from "@/components/blog/blog-details/CommentBox";
+// import Link from "next/link";
 import blogsData from "@/data/blog";
 import Image from "next/image";
 import styles from "./DynamicBlogDetails.module.css"; // Import CSS module
 
-interface Metadata {
-  title: string;
-}
+// interface Metadata {
+//   title: string;
+// }
 
-export const metadata: Metadata = {
-  title: "Dynamic Blog Details || Jano - Creative Multipurpose React NextJS Template",
-};
+// export const metadata: Metadata = {
+//   title: "Dynamic Blog Details || Jano - Creative Multipurpose React NextJS Template",
+// };
 
 interface DynamicBlogDetailsProps {
   params: {
@@ -108,7 +109,7 @@ const DynamicBlogDetails: React.FC<DynamicBlogDetailsProps> = ({ params }) => {
                     </div>
                   </article>
 
-                  <div className="blog-comment-area">
+                  {/* <div className="blog-comment-area">
                     <h3 className="blog-inner-title tx-dark pb-15">2 Comments</h3>
                     <SingleComments />
                   </div>
@@ -122,7 +123,7 @@ const DynamicBlogDetails: React.FC<DynamicBlogDetailsProps> = ({ params }) => {
                       in to post your comment or signup if you don&apos;t have an account.
                     </p>
                     <CommentBox />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -142,7 +143,7 @@ const DynamicBlogDetails: React.FC<DynamicBlogDetailsProps> = ({ params }) => {
                     <RecentPost />
                   </div>
 
-                  <BannerPost />
+                  {/* <BannerPost /> */}
                 </div>
               </div>
             </div>
@@ -150,7 +151,19 @@ const DynamicBlogDetails: React.FC<DynamicBlogDetailsProps> = ({ params }) => {
         </div>
       </div>
 
-      <DefaultFooter />
+      {/* Footer */}
+      <div className="footer-style-two theme-basic-footer">
+        <div className="top-footer position-relative">
+          <div className="container">
+            <div className="inner-wrapper m-auto">
+              <div className="row">
+                <FooterMenu />
+              </div>
+            </div>
+          </div>
+        </div>
+        <CopyrightFooter2 />
+      </div>
     </>
   );
 };

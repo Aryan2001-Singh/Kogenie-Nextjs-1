@@ -1,10 +1,10 @@
-// import DefaulHeader from "@/components/header/DefaulHeader";
-import DefaultFooter from "@/components/footer/DefaultFooter";
-import Pagination from "@/components/blog/Pagination";
+import FooterMenu from "@/components/home-page/home-6/FooterMenu";
+import CopyrightFooter2 from "@/components/footer/CopyrightFooter2";
+// import Pagination from "@/components/blog/Pagination";
 import SearchBox from "@/components/blog/SearchBox";
 import Category from "@/components/blog/Category";
 import RecentPost from "@/components/blog/RecentPost";
-import BannerPost from "@/components/blog/BannerPost";
+// import BannerPost from "@/components/blog/BannerPost";
 import Blog2 from "@/components/blog/Blog";
 import Header from "@/components/home-page/home-6/Header";
 import Image from "next/image";
@@ -63,9 +63,9 @@ const GridWithSidebar = () => {
                   </div>
                 </div>
                 {/* /.blog-meta-wrapper */}
-                <div className="page-pagination-one pt-15">
+                {/* <div className="page-pagination-one pt-15">
                   <Pagination />
-                </div>
+                </div> */}
               </div>
               {/* End .col-lg-8 */}
 
@@ -88,7 +88,7 @@ const GridWithSidebar = () => {
                   </div>
                   {/* /.sidebar-recent-news */}
 
-                  <BannerPost />
+                  {/* <BannerPost /> */}
                   {/* /.sidebar-banner-add */}
                 </div>
                 {/* /.blog-sidebar */}
@@ -98,12 +98,19 @@ const GridWithSidebar = () => {
         </div>
       </div>
 
-      {/* 
-        =============================================
-        Contact Section One
-        ============================================== 
-        */}
-      <DefaultFooter />
+      {/* Footer */}
+      <div className="footer-style-two theme-basic-footer">
+        <div className="top-footer position-relative">
+          <div className="container">
+            <div className="inner-wrapper m-auto">
+              <div className="row">
+                <FooterMenu />
+              </div>
+            </div>
+          </div>
+        </div>
+        <CopyrightFooter2 />
+      </div>
     </>
   );
 };

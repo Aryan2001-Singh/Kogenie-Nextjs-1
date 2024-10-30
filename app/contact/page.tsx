@@ -1,7 +1,7 @@
 import BlockContact5 from "@/components/contact/BlockContact";
 import ContactForm4 from "@/components/contact/ContactForm";
 import Map2 from "@/components/contact/Map";
-import DefaultFooter from "@/components/footer/DefaultFooter";
+// import DefaultFooter from "@/components/footer/DefaultFooter";
 import Header from "@/components/home-page/home-6/Header";
 import FooterMenu from "@/components/home-page/home-6/FooterMenu";
 import CopyrightFooter2 from "@/components/footer/CopyrightFooter2";

@@ -18,13 +18,13 @@ const AboutUsV1 = () => {
     { text: "24/7 customer support." },
   ];
 
-  const starRating = Array(5)
-    .fill()
-    .map((_, index) => (
-      <li key={index}>
-        <i className="fa-solid fa-star" />
-      </li>
-    ));
+  // const starRating = Array(5)
+  //   .fill()
+  //   .map((_, index) => (
+  //     <li key={index}>
+  //       <i className="fa-solid fa-star" />
+  //     </li>
+  //   ));
 
   return (
     <>
