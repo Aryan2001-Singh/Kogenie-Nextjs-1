@@ -1,19 +1,20 @@
-import DefaultFooter from "@/components/footer/DefaultFooter";
-import Partners from "@/components/services/Partners";
-import Faq from "@/components/services/Faq";
+// import DefaultFooter from "@/components/footer/DefaultFooter";
+// import Partners from "@/components/services/Partners";
+// import Faq from "@/components/services/Faq";
 import Testimonial from "@/components/home-page/home-3/Testimonial";
 import Block from "@/components/services/Block";
 import Team1 from "@/components/team/Team1";
 import Link from "next/link";
 import VideoBlock from "@/components/about/VideoBlock";
-import Counter from "@/components/about/Counter";
+// import Counter from "@/components/about/Counter";
 import Header from "@/components/home-page/home-6/Header";
-import Image from 'next/image';
-
+import Image from "next/image";
+import FooterMenu from "@/components/home-page/home-6/FooterMenu";
+import CopyrightFooter2 from "@/components/footer/CopyrightFooter2";
 const AboutUsV1 = () => {
   const features = [
-    { text: "Seamless e-commerce integration." },
-    { text: "Expert product catalog management." },
+    { text: "Driver by data." },
+    { text: "Innovating AI solutions" },
     { text: "24/7 customer support." },
   ];
 
@@ -36,7 +37,10 @@ const AboutUsV1 = () => {
           <div className="row">
             <div className="col-lg-7" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
-                <h2 className="main-title fw-500 tx-dark">
+                <h2
+                  style={{ justifyContent: "center", textAlign: "center" }}
+                  className="main-title fw-500 tx-dark font-recoleta"
+                >
                   Leading in E-commerce and Digital Solutions.
                 </h2>
               </div>
@@ -53,9 +57,7 @@ const AboutUsV1 = () => {
                   powerful digital marketing solutions. Our mission is to help
                   businesses thrive in the competitive digital landscape.
                 </p>
-                <div className="row">
-                  <Counter />
-                </div>
+                <div className="row">{/* <Counter /> */}</div>
               </div>
             </div>
           </div>
@@ -94,7 +96,7 @@ const AboutUsV1 = () => {
                     WHY KOgenie?
                   </div>
                   <h2 className="main-title fw-500 tx-dark">
-                    Comprehensive Digital Solutions.
+                    Empowering brands to hyper-targeted influence
                   </h2>
                 </div>
                 <p className="fs-20 pt-20 pb-30 lg-pt-10 lg-pb-20">
@@ -108,12 +110,12 @@ const AboutUsV1 = () => {
                   ))}
                 </ul>
                 <div className="d-inline-flex align-items-center mt-35 lg-mt-20">
-                  <ul className="d-flex style-none rating">{starRating}</ul>
+                  {/* <ul className="d-flex style-none rating">{starRating}</ul> */}
                   <div className="fs-20 ms-2">
-                    <strong className="fw-500 tx-dark">4.9</strong>
-                    <span className="tx-dark fs-16 opacity-50">
+                    {/* <strong className="fw-500 tx-dark">4.9</strong> */}
+                    {/* <span className="tx-dark fs-16 opacity-50">
                       (15k Reviews)
-                    </span>
+                    </span> */}
                   </div>
                 </div>
               </div>
@@ -140,14 +142,14 @@ const AboutUsV1 = () => {
             <div className="row">
               <Team1 />
             </div>
-            <p
+            {/* <p
               className="cr-text text-center text-lg tx-dark mt-75 lg-mt-50"
               data-aos="fade-up"
             >
               Our
               <span className="text-decoration-underline fw-500">2,500+</span>
               dedicated professionals are here to help your business succeed.
-            </p>
+            </p> */}
             <div className="text-center md-mt-20">
               <Link
                 href="/pages-menu/team-v1"
@@ -175,7 +177,9 @@ const AboutUsV1 = () => {
       >
         <div className="container">
           <div className="title-style-one text-center mb-50 lg-mb-20">
-            <h2 className="main-title fw-500 tx-dark m0">Client Feedback</h2>
+            <h2 style={{
+              fontSize:'50px',
+            }}className="main-title fw-500 tx-dark m0 font-recoleta">Client Feedback</h2>
           </div>
         </div>
         <div className="inner-content">
@@ -188,7 +192,7 @@ const AboutUsV1 = () => {
       </div>
 
       {/* Digital Solutions Section */}
-      <div className="fancy-feature-thirtyEight mt-180 lg-mt-120">
+      {/* <div className="fancy-feature-thirtyEight mt-180 lg-mt-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
@@ -210,14 +214,14 @@ const AboutUsV1 = () => {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 ms-auto" data-aos="fade-left">
+            </div> */}
+            {/* <div className="col-lg-6 ms-auto" data-aos="fade-left">
               <Faq />
-            </div>
-          </div>
-        </div>
+            </div> */}
+          {/* </div>
+        </div> */}
 
-        <div className="partner-section-six position-relative mt-130 lg-mt-80">
+        {/* <div className="partner-section-six position-relative mt-130 lg-mt-80">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-5">
@@ -225,18 +229,18 @@ const AboutUsV1 = () => {
                   <span>200+</span> Trusted Partners
                 </h3>
               </div>
-              <div className="col-xl-6 col-lg-7 ms-auto">
+              {/* <div className="col-xl-6 col-lg-7 ms-auto">
                 <div className="logo-wrapper text-center d-flex justify-content-center justify-content-lg-between flex-wrap">
                   <Partners />
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
 
       {/* Short Banner Section */}
-      <div
+      {/* <div
         className="fancy-short-banner-sixteen mt-130 lg-mt-80"
         data-aos="fade-up"
       >
@@ -251,7 +255,7 @@ const AboutUsV1 = () => {
                         Have Any Project?
                       </div>
                       <h2 className="main-title fw-500 text-white m0">
-                        Contact us for a consultation.
+                        Contact us.
                       </h2>
                     </div>
                   </div>
@@ -269,10 +273,22 @@ const AboutUsV1 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Footer */}
-      <DefaultFooter />
+       {/* Footer */}
+       <div className="footer-style-two theme-basic-footer">
+        <div className="top-footer position-relative">
+          <div className="container">
+            <div className="inner-wrapper m-auto">
+              <div className="row">
+                <FooterMenu />
+              </div>
+            </div>
+          </div>
+        </div>
+        <CopyrightFooter2 />
+      </div>
     </>
   );
 };

@@ -27,28 +27,28 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: "Saikat Sengupta",
+    name: "Supratik Sengupta",
     role: "Marketing Strategist",
     imgSrc: "/images/team/img_07.jpg",
   },
-  {
-    id: 6,
-    name: "Jannatul Ferdaus",
-    role: "CEO",
-    imgSrc: "/images/team/img_13.jpg",
-  },
-  {
-    id: 7,
-    name: "Rashed Kabir",
-    role: "Designer",
-    imgSrc: "/images/team/img_14.jpg",
-  },
-  {
-    id: 8,
-    name: "Angelina Shelly",
-    role: "Analyst",
-    imgSrc: "/images/team/img_15.jpg",
-  },
+  // {
+  //   id: 6,
+  //   name: "Jannatul Ferdaus",
+  //   role: "CEO",
+  //   imgSrc: "/images/team/img_13.jpg",
+  // },
+  // {
+  //   id: 7,
+  //   name: "Rashed Kabir",
+  //   role: "Designer",
+  //   imgSrc: "/images/team/img_14.jpg",
+  // },
+  // {
+  //   id: 8,
+  //   name: "Angelina Shelly",
+  //   role: "Analyst",
+  //   imgSrc: "/images/team/img_15.jpg",
+  // },
 ];
 
 const Team1 = () => {

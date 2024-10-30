@@ -3,24 +3,24 @@ import Image from "next/image";
 const tabData = [
   {
     id: "sp1",
-    title: "Create task",
-    subtitle: "for any team person",
+    title: "Input Audience Data",
+    subtitle: "Select your target audience",
     image: "/images/media/img_06.jpg",
     width: 1200,  // Set appropriate width for the image
     height: 800,  // Set appropriate height for the image
   },
   {
     id: "sp2",
-    title: "Make timeframe",
-    subtitle: "for do the task",
+    title: "Review and Refine",
+    subtitle: "A/B Testing optimizes for best possible outcomes",
     image: "/images/media/img_05.jpg",
     width: 1200,  // Set appropriate width for the image
     height: 800,  // Set appropriate height for the image
   },
   {
     id: "sp3",
-    title: "Get task completed",
-    subtitle: "by your member",
+    title: "Deploy and Monitor",
+    subtitle: "Get analysis of insight in realtime",
     image: "/images/media/img_06.1.jpg",
     width: 1200,  // Set appropriate width for the image
     height: 800,  // Set appropriate height for the image

@@ -48,7 +48,7 @@ const Hero = () => {
                 /> */}
                 Create ads that boost sales in just 5 minutes
                 <span className="position-relative d-inline-block"></span>
-                &amp; make life easier.
+                &amp; Hassle - free
               </h1>
               <p className="text-lg mb-75 pt-20 lg-mb-50 lg-pt-10">
                 KOgenie makes your ad in just 5 minutes so you can launch ad
@@ -80,7 +80,7 @@ const Hero = () => {
           </div>
           {/* End .row */}
 
-          <div
+          {/* <div
             className="illustration-holder position-relative mt-120 lg-mt-80 xs-mt-30"
             data-aos="fade-up"
           >
@@ -94,7 +94,7 @@ const Hero = () => {
               />
             </div>
             {/* /.bg-wrapper */}
-            <Image
+            {/* <Image
               src="/images/shape/shape_28.svg"
               alt="media"
               className="lazy-img shapes shape-one"
@@ -121,8 +121,10 @@ const Hero = () => {
               className="lazy-img shapes shape-four"
               width={50}
                 height={50}
-            />
-          </div>
+            /> 
+          </div>  */}
+
+          
           {/* /.illustration-holder */}
         </div>
         {/* /.container */}

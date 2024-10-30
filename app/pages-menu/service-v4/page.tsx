@@ -3,8 +3,10 @@ import Footer from "@/components/home-page/home-6/FooterMenu";
 import Header from "@/components/home-page/home-6/Header";
 import Block2 from "@/components/services/Block2";
 import Faq4 from "@/components/faqs/Faq4";
-import Testimonial from "@/components/services/Testimonial";
+// import Testimonial from "@/components/services/Testimonial";
 import CallToActions from "@/components/services/CallToActions";
+import FooterMenu from "@/components/home-page/home-6/FooterMenu";
+import CopyrightFooter2 from "@/components/footer/CopyrightFooter2";
 
 const ServiceV4 = () => {
   return (
@@ -32,12 +34,13 @@ const ServiceV4 = () => {
       {/* Feature Section One */}
       <div className="fancy-feature-one pt-120 lg-pt-90">
         <div className="container">
+        
           <h2
             style={{
               fontSize: "5rem",
               justifyContent: "center",
               textAlign: "center",
-              marginBottom:'2rem',
+              marginBottom: "2rem",
             }}
             className="main-title font-recoleta fw-normal tx-dark"
           >
@@ -74,7 +77,16 @@ const ServiceV4 = () => {
             <div className="row">
               <div className="col-lg-4" data-aos="fade-right">
                 <div className="title-style-one">
-                  <div className="sc-title text-uppercase">Why KOgenie?</div>
+                  <div
+                    style={{
+                      fontSize: "50px",
+                      fontWeight: "bolder",
+                      color: "black",
+                    }}
+                    className="sc-title text-uppercase"
+                  >
+                    Why KOgenie?
+                  </div>
                   <h2 className="main-title fw-bold tx-dark">
                     Why <span>Choose</span> KOgenie.
                   </h2>
@@ -132,7 +144,7 @@ const ServiceV4 = () => {
       </div>
 
       {/* Feedback Section */}
-      <div
+      {/* <div
         className="feedback-section-one zn2 position-relative"
         data-aos="fade-up"
       >
@@ -153,7 +165,7 @@ const ServiceV4 = () => {
       </div>
 
       {/* Wrapper */}
-      <div className="wrapper position-relative mt-160 lg-mt-100">
+      {/* <div className="wrapper position-relative mt-160 lg-mt-100">
         <div className="container">
           <div className="row">
             <div className="col-xl-8 col-lg-10 m-auto text-center">
@@ -163,8 +175,6 @@ const ServiceV4 = () => {
                   <span>one click</span>.
                 </h2>
               </div>
-             
-              
             </div>
           </div>
         </div>
@@ -200,24 +210,29 @@ const ServiceV4 = () => {
           alt="shape"
           className="lazy-img shapes shape-four"
           style={{ top: "-3%", right: "14%" }}
-        />
-      </div>
+        /> */}
+      {/* </div> */} 
 
       {/* Call To Actions */}
+
       <CallToActions />
 
-      {/* Footer */}
-      <div className="footer-style-one theme-basic-footer position-relative">
-        <div className="container">
-          <div className="inner-wrapper">
-            <Footer />
-            <div className="bottom-footer">
-              <p className="copyright text-center m0">
-                © {new Date().getFullYear()} KOgenie. All Rights Reserved.
-              </p>
+
+
+     {/* Footer */}
+     <div className="footer-style-two theme-basic-footer">
+        <div className="top-footer position-relative">
+          <div className="container">
+            <div className="inner-wrapper m-auto">
+              <div className="row">
+                <FooterMenu />
+              </div>
             </div>
           </div>
         </div>
+
+        <CopyrightFooter2 />
+
       </div>
     </>
   );

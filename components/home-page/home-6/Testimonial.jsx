@@ -18,19 +18,19 @@ const Testimonial = () => {
     {
       id: 1,
       text: "Having a home based business is a wonderful asset to your life. The problem still stands it comes timeadvertise your business for a cheap cost. I know you have looked answer everywhere.",
-      name: "Rashed kabir",
+      name: "Subarno Chatterjee",
       role: "Designer",
     },
     {
       id: 2,
       text: "I really love this product! It has made my life so much easier and I can't imagine going back to the way things were before. Thank you for creating such an amazing solution!",
-      name: "John Doe",
+      name: "Aman Khatri",
       role: "Developer",
     },
     {
       id: 3,
       text: "I was a bit skeptical at first, but after trying this product I was blown away by how effective it is. I would highly recommend it to anyone looking for a solution to their problem!",
-      name: "Jane Smith",
+      name: "Garima Rakheja",
       role: "Marketing Manager",
     },
   ];
@@ -50,7 +50,7 @@ const Testimonial = () => {
           {testimonials.map((testimonial) => (
             <div className="item" key={testimonial.id}>
               <div className="feedback-block-two text-center">
-                <p className="mb-80 lg-mb-40">{testimonial.text}</p>
+                <p style ={{fontFamily:'sans-serif'}}className="mb-80 lg-mb-40">{testimonial.text}</p>
                 <h4 className="m0">{testimonial.name}</h4>
                 <span className="opacity-75">{testimonial.role}</span>
               </div>

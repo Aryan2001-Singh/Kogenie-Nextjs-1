@@ -21,18 +21,18 @@ const faqData = [
   },
 ];
 
-const Faq4 = () => {
+const Faq = () => {
   return (
     <div className="accordion accordion-style-two" id="accordionOne">
       {faqData.map((faq) => (
         <div className="accordion-item" key={faq.id}>
           <div className="accordion-header" id={`heading${faq.id}`}>
             <button
-              className={`accordion-button ${faq.id === 1 ? "" : "collapsed"}`}
+              className={`accordion-button ${faq.id === 3 ? "" : "collapsed"}`}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target={`#collapse${faq.id}`}
-              aria-expanded={faq.id === 1 ? "true" : "false"}
+              aria-expanded={faq.id === 3 ? "true" : "false"}
               aria-controls={`collapse${faq.id}`}
             >
               {faq.question}
@@ -41,7 +41,7 @@ const Faq4 = () => {
           <div
             id={`collapse${faq.id}`}
             className={`accordion-collapse collapse ${
-              faq.id === 1 ? "show" : ""
+              faq.id === 3 ? "show" : ""
             }`}
             aria-labelledby={`heading${faq.id}`}
             data-bs-parent="#accordionOne"
@@ -56,4 +56,4 @@ const Faq4 = () => {
   );
 };
 
-export default Faq4;
+export default Faq;

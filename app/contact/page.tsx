@@ -3,6 +3,8 @@ import ContactForm4 from "@/components/contact/ContactForm";
 import Map2 from "@/components/contact/Map";
 import DefaultFooter from "@/components/footer/DefaultFooter";
 import Header from "@/components/home-page/home-6/Header";
+import FooterMenu from "@/components/home-page/home-6/FooterMenu";
+import CopyrightFooter2 from "@/components/footer/CopyrightFooter2";
 
 const ContactV4 = () => {
   return (
@@ -26,14 +28,14 @@ const ContactV4 = () => {
                 className="title-style-fourteen text-center mb-100 lg-mb-50"
                 data-aos="fade-up"
               >
-                <div
+                {/* <div
                   style={{
                     color: "#DB4A2B",
                   }}
                   className="sc-title"
                 >
                   CONTACT US
-                </div>
+                </div> */}
                 <h2 className="main-title font-recoleta fw-normal tx-dark">
                   Our team are here to help you.
                 </h2>
@@ -76,7 +78,21 @@ const ContactV4 = () => {
         Contact Section One
         ============================================== 
         */}
-      <DefaultFooter />
+           {/* Footer */}
+     <div className="footer-style-two theme-basic-footer">
+        <div className="top-footer position-relative">
+          <div className="container">
+            <div className="inner-wrapper m-auto">
+              <div className="row">
+                <FooterMenu />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <CopyrightFooter2 />
+
+      </div>
     </>
   );
 };

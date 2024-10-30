@@ -17,9 +17,9 @@ const BlockContact5 = () => {
     },
     {
       icon: "/images/icon/icon_180.svg",
-      title: "Live Support",
-      content: "live chat service",
-      link: "www.kogenie.com",
+      title: "Mail Us",
+      content: "Mail Services",
+      link: "kogenie.marketing@kogenie.com",
       delay: "300",
     },
   ];

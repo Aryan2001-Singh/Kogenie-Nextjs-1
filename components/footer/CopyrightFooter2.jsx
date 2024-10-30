@@ -14,15 +14,19 @@ const links = [
 const icons = [
   {
     icon: "fab fa-facebook-f",
-    href: "https://www.facebook.com/",
+    href: "https://www.facebook.com/kogenie.in/about/",
   },
   {
-    icon: "fab fa-twitter",
-    href: "https://www.twitter.com/",
+    icon: "fas fa-times",
+    href: "https://x.com/kogenie__26 for x",
   },
   {
-    icon: "fab fa-linkedin-in",
-    href: "https://www.linkedin.com/",
+    icon: "fab fa-linkedin-in ",
+    href: "https://www.linkedin.com/company/kogenie/",
+  },
+  {
+    icon: "fab fa-instagram",
+    href: "https://www.instagram.com/kogenie_official",
   },
 ];
 
